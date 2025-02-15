@@ -1,0 +1,19 @@
+# Core Libraries
+opencv-python==4.9.0.80
+numpy==1.26.4
+
+# Object Detection
+ultralytics==8.2.0
+torch==2.2.1
+torchvision==0.17.1
+
+# Voice Assistant
+SpeechRecognition==3.10.0
+pyaudio==0.2.14
+gtts==2.5.1
+
+# AI Integration
+openai==1.12.0
+
+# Utilities
+python-dotenv==1.0.1
