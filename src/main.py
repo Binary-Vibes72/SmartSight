@@ -56,7 +56,7 @@ def object_detection():
             break
 
         # Perform object detection
-        results = model.predict(source=frame, imgsz=320, half=True)  # Lower resolution for faster inference
+        results = model.predict(source=frame, imgsz=320)  # Lower resolution for faster inference
 
         # Display the frame with detections
         annotated_frame = results[0].plot()  # Draw bounding boxes and labels
